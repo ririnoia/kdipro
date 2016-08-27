@@ -10,7 +10,7 @@ void quiz_list(node *p,node *t,int num,int cha[]){
   int i,j,rate=0,per=0,qt;
   char ans[30];
   time_t start,rap;
-  printf("この機能は連結リストに登録した問題をランダムに出題できる機能です\n出題する問題数を指定してください（連結リストの数以上の数は指定できません）\n");
+  printf("この機能は連結リストに登録した問題をランダムに出題できる機能です\n出題する問題数を指定してください（連結リストの数より上の数は指定できません）\n");
   printf("現在の連結リストの数 %d個\n",num);
   scanf("%d",&ques);
   if(ques>num){
